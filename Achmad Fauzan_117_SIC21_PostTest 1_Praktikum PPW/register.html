@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+        <title>OVERPRICED COFFEE</title>
+        <link rel='icon' href='image/title-icon.png' type='image/png'>
+        <link rel='stylesheet' href='style.css'>
+        <link rel='preconnect' href='https://fonts.googleapis.com'>
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+        <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap' rel='stylesheet'>
+    </head>
+<body>
+    <table>
+                    <form action="register-proses.php" method="POST">
+                        <tr><label style="padding-left: 410px;">DAFTAR SEKARANG</label></tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="nama">Nama Lengkap</label></td>
+                                    <td>:</td>
+                                    <td><input type="text" name="nama" id="nama"></td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="HP">Nomor HP</label></td>
+                                    <td>:</td>
+                                    <td><input type="" name="HP" id="HP"></td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="lahir">Tempat Lahir</label></td>
+                                    <td>:</td>
+                                    <td><input type="text" name="lahir"></td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="date">Tanggal Lahir</label></td>
+                                    <td>:</td>
+                                    <td><input type="date" name="date" id="date"></td>
+                                </tr>
+                                <tr><td><label style="padding-left: 410px;" for="kota">Asal Kabupaten/Kota</label></td>
+                                    <td>:</td>
+                                    <td>
+                                        <select id="kota">
+                                            <option value="Bengkayang">Balikpapan</option>
+                                            <option value="Kayong Utara">Samarinda</option>
+                                            <option value="Ketapang">Yogyakarta</option>
+                                            <option value="Kubu Raya">Surabaya</option>
+                                            <option value="Landak">Papua</option>
+                                            <option value="MElawi">Melawi</option>
+                                            <option value="Mempawah">Banten</option>
+                                            <option value="Pontianak">Pontianak</option>
+                                            <option value="Putussibau">Makassar</option>
+                                            <option value="Sambas">Bali</option>
+                                            <option value="Sanggau">Denpasar</option>
+                                            <option value="Sekadau">Solo</option>
+                                            <option value="Singkawang">Malang</option>
+                                            <option value="Sintang">Maluku</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="pendidikan">Pendidikan Terakhir</label></td>
+                                    <td>:</td>
+                                    <td>
+                                        <input type="radio" name="pendidikan" id="pendidikan" value="Diploma 3">
+                                        <label for="D3">Diploma 3</label>
+                                        <input type="radio" name="pendidikan" id="pendidikan" value="Strata 1">
+                                        <label for="S1">Strata 1</label>
+                                        <input type="radio" name="pendidikan" id="pendidikan" value="Strata 2">
+                                        <label for="S2">Strata 2</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="hp">Nomor Telepon</label></td>
+                                    <td>:</td>
+                                    <td><input type="tel" name="hp" id="hp" value="+62"></td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="email">Alamat Email</label></td>
+                                    <td>:</td>
+                                    <td><input type="email" name="email" id="email"></td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="lang">Jenis Kopi</label></td>
+                                    <td>:</td>
+                                    <td>
+                                        <input type="checkbox" name="diklat" id="lang1" value="HTML">
+                                        <label for="lang">Kopi Hitam</label>
+                                        <input type="checkbox" name="diklat" id="lang2" value="CSS">
+                                        <label for="lang">Kopi Luwak</label>
+                                        <input type="checkbox" name="diklat" id="lang3" value="Javascript">
+                                        <label for="lang">Kopi Arabika</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label style="padding-left: 410px;" for="cv">Upload Dokumen CV</label></td>
+                                    <td>:</td>
+                                    <td><input type="file" name="CV" id="CV"></td>
+                                </tr>
+                            </table>
+                        </form>
+                </div>
+                <!-- <div class='register-col'>
+                        <label class="register-sub-title">E-mail</label>
+                        <input class="register-form-element" type="email" name="email" placeholder="Masukkan e-mail anda..." required>
+                        <label class="register-sub-title">No. Telpon</label>
+                        <input class="register-form-element" type="number" name="no_telp" placeholder="Masukkan no. telpon anda..." required>
+                        <label class="register-sub-title">Alamat</label>
+                        <input class="register-form-element" type="text" name="alamat" placeholder="Masukkan alamat anda..." required>
+                </div> -->
+            </div>
+            <div class="register-form-button">
+                    <a href="index.html" class='back-button'>Kembali</a>
+                    <input class='register-button' type="submit" name="daftar" value="Daftar"> 
+                </form>                
+            </div>
+            <p class="register-login">Sudah punya akun? masuk <a href="login.html" class="register-login-link">disini</a></p>
+        </div>
+    </section>
+</table>
+</body>
+</html>
